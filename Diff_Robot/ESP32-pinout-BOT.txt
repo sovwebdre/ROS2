@@ -1,0 +1,32 @@
+// Motor driver pins
+#define MOTOR_A_PWM 4 // PWM pin for Motor A
+#define MOTOR_A_IN1 18 // Direction pin 1 for Motor A
+#define MOTOR_A_IN2 5 // Direction pin 2 for Motor A
+
+#define MOTOR_B_PWM 0 // PWM pin for Motor B
+#define MOTOR_B_IN1 16 // Direction pin 1 for Motor B
+#define MOTOR_B_IN2 17 // Direction pin 2 for Motor B
+
+// Encoder pins
+#define ENCODER_A1 32 // Encoder A, Phase A
+#define ENCODER_A2 33 // Encoder A, Phase B
+#define ENCODER_B1 25 // Encoder B, Phase A
+#define ENCODER_B2 26 // Encoder B, Phase B
+
+//other PINS
+#define RGB_strip_data 2
+
+#define POD_1_DIR 27
+#define POD_1_PWM 14
+#define POD_2_DIR 12
+#define POD_2_PWM 13
+
+#define FL_o 35
+#define FR_o 34
+#define BL_o 19
+#define BR_o 23
+
+//I2C pins
+
+#define SCL 22
+#define SDA 21
